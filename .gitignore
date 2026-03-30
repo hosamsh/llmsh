@@ -1,0 +1,112 @@
+# Node
+node_modules/
+.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+.coverage
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+hypothesis/
+.tox/
+.pyre/
+venv/
+.venv/
+ENV/
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+.eggs/
+eggs/
+wheels/
+sdist/
+downloads/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.duckdb
+*.duckdb.wal
+*.db.backup.*
+
+# .NET
+bin/
+obj/
+**/[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.dll
+*.exe
+*.pdb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Development process
+.process/
+agentic-process/
+samples/
+.claude/
+.docs/
+tasks/
+
+# uv
+.python-version
+
+# Model weights
+*.pt
+*.bin
+*.onnx
+*.safetensors
+
+# Productivity
+command.md
+command.txt
+tasks.md
+tasks.txt
+__my/
+__ref*/
+__my*/
+
+
+

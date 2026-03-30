@@ -1,0 +1,42 @@
+# Copy this file to ~/.config/llmsh/config.toml and adjust values for your setup.
+
+current_profile = "default"
+
+[endpoints.local]
+base_url = "http://localhost:8006/v1"
+auth_mode = "none"
+provider_type = "openai_compatible"
+verify_ssl = true
+timeout_seconds = 60.0
+
+[endpoints.openai]
+base_url = "https://api.openai.com/v1"
+auth_mode = "api_key"
+api_key_env = "OPENAI_API_KEY"
+provider_type = "openai_compatible"
+verify_ssl = true
+timeout_seconds = 60.0
+
+[profiles.default]
+endpoint = "local"
+model = "qwen2.5-coder-32b-instruct"
+max_tokens = 4096
+
+[profiles.default.capabilities]
+streaming = true
+token_usage = true
+multimodal_input = false
+tool_calling = true
+structured_output = false
+
+[profiles.openai_gpt5]
+endpoint = "openai"
+model = "gpt-5"
+max_tokens = 4096
+
+[profiles.openai_gpt5.capabilities]
+streaming = true
+token_usage = true
+multimodal_input = true
+tool_calling = true
+structured_output = true

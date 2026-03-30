@@ -1,0 +1,65 @@
+/* llmsh theme */
+
+MessageWidget {
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.user-message {
+    color: $accent;
+    text-style: bold;
+}
+
+.assistant-message {
+    color: $text;
+}
+
+.system-message {
+    color: $text-muted;
+    padding: 0 1;
+    margin: 0 0 1 0;
+}
+
+.assistant-message Markdown {
+    margin: 0;
+    padding: 0;
+}
+
+.role-label {
+    height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.streaming {
+    color: $text-muted;
+    text-style: italic;
+}
+
+.reasoning-block {
+    color: grey;
+    padding: 0 1;
+    margin: 0;
+    height: auto;
+}
+
+.warning {
+    color: $warning;
+}
+
+.error {
+    color: $error;
+    text-style: bold;
+}
+
+#transcript {
+    height: 1fr;
+    border: none;
+}
+
+#input {
+    height: 3;
+    dock: bottom;
+    margin: 0;
+}
