@@ -89,6 +89,7 @@ samples/
 .claude/
 .docs/
 tasks/
+human.md
 
 # uv
 .python-version
