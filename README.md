@@ -9,7 +9,7 @@ The interactive `chat` and `ask` flows enable direct interactions with the model
 Requires Python 3.12+ and [uv](https://docs.astral.sh/uv/).
 
 ```bash
-git clone https://github.com/hkml/llmsh
+git clone https://github.com/hosamsh/llmsh
 cd llmsh
 uv sync
 uv tool install .
